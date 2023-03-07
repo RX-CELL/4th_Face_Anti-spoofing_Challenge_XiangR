@@ -4,12 +4,11 @@
 <br />  
 
 # Prerequisites
-
-## 1.1 How to download CASIA-SURF dataset?
+## 1.1 How to download Surveillance High-Fidelity Mask (SuHiFiMask) dataset?
 
 1. [Surveillance Face Anti-spoofing](https://arxiv.org/abs/2301.00975)
 2. Download, read the [Contest Rules](https://codalab.lisn.upsaclay.fr/competitions/10080), and sign the agreement
-3. Send the your signed agreements  to: Jun Wan, jun.wan@ia.ac.cn 
+3. Send the your signed agreements  to Jun Wan, jun.wan@ia.ac.cn 
 4. Download and extract the data and organize it into the following 1.2.2 structure
 ## 1.2 Index tree of data in the project
 ```
@@ -78,9 +77,9 @@ weights (The weight file for the model)
 
 # Test the  model
 ## 3.1 Commands to Test the model
-	```
-		python predict_batch.py --weights='weights/best_model.pth'
-	```
+```
+	python predict_batch.py --weights='weights/best_model.pth'
+```
 ## 3.2 Documents you need to submit
 phase1.txt, pre_test.txt, and phase2.txt will be generated, and phase1.txt and phase2.txt need to be submitted to obtain the competition results
 ```
