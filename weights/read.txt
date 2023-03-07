@@ -1,0 +1,2 @@
+1、download convnext_xlarge pretrained model from https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_224.pth
+2. move pretrained model to  ./weights/
